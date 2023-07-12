@@ -1,11 +1,11 @@
-# ZMK Taipo Implementation
+# ZMK Taipo Layout Firmware
 
-This repo contains the [ZMK](https://zmkfirmware.dev/) Taipo implementation.
+This repo contains the [ZMK](https://zmkfirmware.dev/) firmware for the Taipo layout.
 The official description of the layout can be found on the [Inclusive Keyboards Taipo Page](https://inkeys.wiki/en/keymaps/taipo).
 
 ## Supported Devices
 
-- Ferris Sweep (cradio)
+- Ferris Sweep (aka cradio)
 - Corne (untested)
 
 ## Usage
