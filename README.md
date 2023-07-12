@@ -6,6 +6,7 @@ The official description of the layout can be found on the [Inclusive Keyboards 
 ## Supported Devices
 
 - Ferris Sweep (cradio)
+- Corne (untested)
 
 ## Usage
 
