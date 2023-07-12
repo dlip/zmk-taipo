@@ -22,80 +22,117 @@ This configuration also includes some extra keybindings which use both thumb key
 
 ```
 Input Output Inner Outer Both
-#---  r      R     >
+#---  r      R     >     Print Screen
 ----
--#--  s      S     }     -
+
+-#--  s      S     }     Brightness Up
 ----
---#-  n      N     ]     -
+
+--#-  n      N     ]     Brightness Down
 ----
----#  i      I     )     -
+
+---#  i      I     )     Play/Pause
 ----
-----  a      A     <     -
+
+----  a      A     <     Next Track
 #---
-----  o      O     {     -
+
+----  o      O     {     Volume Up
 -#--
-----  t      T     [     -
+
+----  t      T     [     Volume Down
 --#-
-----  e      E     (     -
+
+----  e      E     (     Previous Track
 ---#
-##--  b      B     9     F9
-----
---##  y      Y     5     F5
-----
-----  l      L     4     F4
-##--
-----  h      H     0     F10
---##
-----  u      U     2     F2
--##-
--##-  p      P     7     F7
-----
-#-#-  z      Z     8     F8
-----
--#-#  f      F     6     F6
-----
-----  q      Q     3     F3
-#--#
+
 ----  c      C     1     F1
 -#-#
+
+----  u      U     2     F2
+-##-
+
+----  q      Q     3     F3
+#--#
+
+----  l      L     4     F4
+##--
+
+--##  y      Y     5     F5
+----
+
+-#-#  f      F     6     F6
+----
+
+-##-  p      P     7     F7
+----
+
+#-#-  z      Z     8     F8
+----
+
+##--  b      B     9     F9
+----
+
+----  h      H     0     F10
+--##
+
 ----  d      D     @     F11
 #--#
+
 #--#  g      G     #     F12
 ----
+
 #---  x      X     ^     -
 --#-
+
 ---#  k      K     +     -
 -#--
+
 -#--  v      V     *     -
 ---#
+
 --#-  j      J     =     -
 #---
+
 #---  m      M     $     -
 ---#
+
 ---#  w      W     &     -
 #---
+
 -#--  /      \     |     -
 --#-
+
 --#-  -      _     %     -
 -#--
+
 #---  ;      :
 -#--
+
 ---#  ?      !
 --#-
+
 --#-  ,      .     ~
 ---#
+
 -#--  '      "     `
 #---
+
 -###  Tab    Del   Fn
 ----
+
 ----  Enter  Esc   AltGr
 -###
+
 #---  Gui    Right PgUp
 #---
+
 -#--  Alt    Up    Home
 -#--
+
 --#-  Ctrl   Down  End
 --#-
+
 ---#  Shift  Left  PgDn
 ---#
 ```

@@ -47,7 +47,7 @@
   combos {
     compatible = "zmk,combos";
     #include "taipo.dtsi"
-    COMBO(235,&bootloader, 0 4)
+    COMBO(bootloader,&bootloader, 0 4)
   };
 
   keymap {
