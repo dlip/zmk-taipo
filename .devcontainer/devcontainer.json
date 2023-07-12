@@ -1,0 +1,16 @@
+{
+  "name": "Taipo ZMK Development",
+  "dockerFile": "Dockerfile",
+  "runArgs": ["--security-opt", "label=disable"],
+  "extensions": ["ms-vscode.cpptools"],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [3000],
+  "workspaceMount": "type=volume,source=zmk-src,target=/workspaces/zmk",
+  "workspaceFolder": "/workspaces",
+  "mounts": [
+    "type=bind,source=${localWorkspaceFolder},target=/workspaces/zmk-taipo",
+    "type=bind,source=${localWorkspaceFolder}/.build,target=/workspaces/zmk/app/build"
+  ]
+}

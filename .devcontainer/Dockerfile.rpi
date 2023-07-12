@@ -1,0 +1,40 @@
+FROM ubuntu:latest as base
+
+RUN apt-get update && apt-get install -y \
+        git \
+        wget \
+        autoconf \
+        automake \
+        build-essential \
+        bzip2 \
+        ccache \
+        device-tree-compiler \
+        dfu-util \
+        g++ \
+        gcc \
+        gcc-arm-none-eabi \
+        libtool \
+        make \
+        ninja-build \
+        cmake \
+        python3-dev \
+        python3-pip \
+        python3-setuptools \
+        xz-utils \
+    && rm -rf /var/lib/apt/lists/* && apt-get clean
+
+FROM base as dev
+RUN apt-get update && apt-get install -y nano vim emacs tmux htop tio minicom \
+    && pip3 install --user -U west \
+    && rm -rf /var/lib/apt/lists/* && apt-get clean
+
+COPY bashrc tmp
+RUN mv /tmp/bashrc ~/.bashrc
+
+WORKDIR /workspaces
+
+ENV ZEPHYR_TOOLCHAIN_VARIANT=cross-compile
+ENV CROSS_COMPILE=/usr/bin/arm-none-eabi-
+
+CMD ["/bin/bash"]
+
