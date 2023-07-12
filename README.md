@@ -18,7 +18,10 @@ The official description of the layout can be found on the [Inclusive Keyboards 
 
 ## Layout
 
-This configuration also includes some extra keybindings which use both thumb keys together.
+This configuration has some modifications from the original layout:
+
+- Fn layer key switched to 'insert'
+- Uses extra keybindings which use both thumb keys together.
 
 ```
 Input Output Inner Outer Both
@@ -118,7 +121,7 @@ Input Output Inner Outer Both
 -#--  '      "     `
 #---
 
--###  Tab    Del   Fn
+-###  Tab    Del   Insert
 ----
 
 ----  Enter  Esc   AltGr
