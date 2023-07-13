@@ -121,22 +121,22 @@ Input Output Inner Outer Both
 -#--  '      "     `
 #---
 
--###  Tab    Del   Insert
+-###  Tab    Del   Ins   BT Clear
 ----
 
-----  Enter  Esc   AltGr
+----  Enter  Esc   AltGr Bootloader
 -###
 
-#---  Gui    Right PgUp
+#---  Gui    Right PgUp  BT Profile 3
 #---
 
--#--  Alt    Up    Home
+-#--  Alt    Up    Home  BT Profile 2
 -#--
 
---#-  Ctrl   Down  End
+--#-  Ctrl   Down  End   BT Profile 1
 --#-
 
----#  Shift  Left  PgDn
+---#  Shift  Left  PgDn  BT Profile 0
 ---#
 ```
 

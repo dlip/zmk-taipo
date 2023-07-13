@@ -47,11 +47,6 @@
   combos {
     compatible = "zmk,combos";
     #include "taipo.dtsi"
-    combo_bootloader {
-      timeout-ms = <COMBO_TIMEOUT>;
-      key-positions = <0 4>;
-      bindings = <&bootloader>;
-    };
   };
 
   keymap {
