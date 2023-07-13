@@ -56,7 +56,7 @@ Input Output Inner Outer Both
 -##-
 
 ----  q      Q     3     F3
-#--#
+#-#-
 
 ----  l      L     4     F4
 ##--

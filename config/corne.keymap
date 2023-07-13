@@ -23,8 +23,8 @@
 #define BLM 15 // BOTTOM
 #define BLR 14 // BOTTOM
 #define BLP 13 // BOTTOM
-#define LOT 38 // O-THUMB
-#define LIT 39 // I-THUMB
+#define LOT 39 // O-THUMB
+#define LIT 38 // I-THUMB
 
 // RIGHT SIDE
 #define TRI 7 // TOP
@@ -35,8 +35,8 @@
 #define BRM 20 // BOTTOM
 #define BRR 21 // BOTTOM
 #define BRP 22 // BOTTOM
-#define ROT 39 // O-THUMB
-#define RIT 40 // I-THUMB
+#define ROT 40 // O-THUMB
+#define RIT 41 // I-THUMB
 
 &sk {
     release-after-ms = <STICKY_TIMEOUT>;
@@ -47,7 +47,11 @@
   combos {
     compatible = "zmk,combos";
     #include "taipo.dtsi"
-    COMBO(bootloader,&bootloader, 0 4)
+    combo_bootloader {
+      timeout-ms = <COMBO_TIMEOUT>;
+      key-positions = <0 4>;
+      bindings = <&bootloader>;
+    };
   };
 
   keymap {
