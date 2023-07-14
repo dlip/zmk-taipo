@@ -20,9 +20,10 @@ The official description of the layout can be found on the [Inclusive Keyboards 
 
 This configuration has some modifications from the original layout:
 
+- Uses extra keybindings which use both thumb keys together
 - Fn layer key switched to 'insert'
 - Adds Caps to '?'
-- Uses extra keybindings which use both thumb keys together.
+- Adds alternate mappings for ''' and ';' since my ring and pinkie fingers don't get along
 
 ```
 Input Output Inner Outer Both
@@ -110,17 +111,24 @@ Input Output Inner Outer Both
 --#-  -      _     %
 -#--
 
-#---  ;      :
--#--
-
 ---#  ?      !     Caps
 --#-
 
 --#-  ,      .     ~
 ---#
 
+#---  ;      :
+-#--
+
+--#-  ;      :
+-#-#
+
 -#--  '      "     `
 #---
+
+--##  '      "     `
+-#--
+
 
 -###  Tab    Del   Ins   BT Clear
 ----
