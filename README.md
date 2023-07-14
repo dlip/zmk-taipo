@@ -21,6 +21,7 @@ The official description of the layout can be found on the [Inclusive Keyboards 
 This configuration has some modifications from the original layout:
 
 - Fn layer key switched to 'insert'
+- Adds Caps to '?'
 - Uses extra keybindings which use both thumb keys together.
 
 ```
@@ -85,16 +86,16 @@ Input Output Inner Outer Both
 #--#  g      G     #     F12
 ----
 
-#---  x      X     ^
+#---  x      X     ^     Cut
 --#-
 
----#  k      K     +
+---#  k      K     +     Copy
 -#--
 
--#--  v      V     *
+-#--  v      V     *     Paste
 ---#
 
---#-  j      J     =
+--#-  j      J     =     Undo
 #---
 
 #---  m      M     $
@@ -112,7 +113,7 @@ Input Output Inner Outer Both
 #---  ;      :
 -#--
 
----#  ?      !
+---#  ?      !     Caps
 --#-
 
 --#-  ,      .     ~
