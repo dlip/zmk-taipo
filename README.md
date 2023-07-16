@@ -20,6 +20,7 @@ The official description of the layout can be found on the [Inclusive Keyboards 
 
 This configuration has some modifications from the original layout:
 
+- Inner and outer thumbs are flipped since i find space to be more natural on the outer thumb
 - Uses extra keybindings which use both thumb keys together
 - Fn layer key switched to 'insert'
 - Adds Caps to '?'
@@ -27,76 +28,76 @@ This configuration has some modifications from the original layout:
 
 ```
 Input Output Inner Outer Both
-#---  r      R     >     Print Screen
+#---  r      >     R     Print Screen
 ----
 
--#--  s      S     }     Brightness Up
+-#--  s      }     S     Brightness Up
 ----
 
---#-  n      N     ]     Brightness Down
+--#-  n      ]     N     Brightness Down
 ----
 
----#  i      I     )     Play/Pause
+---#  i      )     I     Play/Pause
 ----
 
-----  a      A     <     Next Track
+----  a      <     A     Next Track
 #---
 
-----  o      O     {     Volume Up
+----  o      {     O     Volume Up
 -#--
 
-----  t      T     [     Volume Down
+----  t      [     T     Volume Down
 --#-
 
-----  e      E     (     Previous Track
+----  e      (     E     Previous Track
 ---#
 
-----  c      C     1     F1
+----  c      1     C     F1
 -#-#
 
-----  u      U     2     F2
+----  u      2     U     F2
 -##-
 
-----  q      Q     3     F3
+----  q      3     Q     F3
 #-#-
 
-----  l      L     4     F4
+----  l      4     L     F4
 ##--
 
---##  y      Y     5     F5
+--##  y      5     Y     F5
 ----
 
--#-#  f      F     6     F6
+-#-#  f      6     F     F6
 ----
 
--##-  p      P     7     F7
+-##-  p      7     P     F7
 ----
 
-#-#-  z      Z     8     F8
+#-#-  z      8     Z     F8
 ----
 
-##--  b      B     9     F9
+##--  b      9     B     F9
 ----
 
-----  h      H     0     F10
+----  h      0     H     F10
 --##
 
-----  d      D     @     F11
+----  d      @     D     F11
 #--#
 
-#--#  g      G     #     F12
+#--#  g      #     G     F12
 ----
 
-#---  x      X     ^     Cut
+#---  x      ^     X     Cut
 --#-
 
----#  k      K     +     Copy
+---#  k      +     K     Copy
 -#--
 
--#--  v      V     *     Paste
+-#--  v      *     V     Paste
 ---#
 
---#-  j      J     =     Undo
+--#-  j      =     J     Undo
 #---
 
 #---  m      M     $
@@ -117,34 +118,34 @@ Input Output Inner Outer Both
 --#-  ,      .     ~
 ---#
 
-#---  ;      :
+#---  ;            :
 -#--
 
---#-  ;      :
+--#-  ;            :
 -#-#
 
--#--  '      "     `
+-#--  '      `     "
 #---
 
---##  '      "     `
+--##  '      `     "
 -#--
 
--###  Tab    Del   Ins   BT Clear
+-###  Tab    Ins   Del   BT Clear
 ----
 
-----  Enter  Esc   AltGr Bootloader
+----  Enter  AltGr Esc   Bootloader
 -###
 
-#---  Gui    Right PgUp  BT Profile 3
+#---  Gui    PgUp  Right BT Profile 3
 #---
 
--#--  Alt    Up    Home  BT Profile 2
+-#--  Alt    Home  Up    BT Profile 2
 -#--
 
---#-  Ctrl   Down  End   BT Profile 1
+--#-  Ctrl   End   Down  BT Profile 1
 --#-
 
----#  Shift  Left  PgDn  BT Profile 0
+---#  Shift  PgDn  Left  BT Profile 0
 ---#
 ```
 
