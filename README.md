@@ -27,77 +27,77 @@ This configuration has some modifications from the original layout:
 - Adds alternate mappings for ''' and ';' since my ring and pinkie fingers don't get along
 
 ```
-Input Output Inner Outer Both
-#---  r      >     R     Print Screen
+Input Output Outer Inner Both
+#---  r      R     >     Print Screen
 ----
 
--#--  s      }     S     Brightness Up
+-#--  s      S     }     Brightness Up
 ----
 
---#-  n      ]     N     Brightness Down
+--#-  n      N     ]     Brightness Down
 ----
 
----#  i      )     I     Play/Pause
+---#  i      I     )     Play/Pause
 ----
 
-----  a      <     A     Next Track
+----  a      A     <     Next Track
 #---
 
-----  o      {     O     Volume Up
+----  o      O     {     Volume Up
 -#--
 
-----  t      [     T     Volume Down
+----  t      T     [     Volume Down
 --#-
 
-----  e      (     E     Previous Track
+----  e      E     (     Previous Track
 ---#
 
-----  c      1     C     F1
+----  c      C     1     F1
 -#-#
 
-----  u      2     U     F2
+----  u      U     2     F2
 -##-
 
-----  q      3     Q     F3
+----  q      Q     3     F3
 #-#-
 
-----  l      4     L     F4
+----  l      L     4     F4
 ##--
 
---##  y      5     Y     F5
+--##  y      Y     5     F5
 ----
 
--#-#  f      6     F     F6
+-#-#  f      F     6     F6
 ----
 
--##-  p      7     P     F7
+-##-  p      P     7     F7
 ----
 
-#-#-  z      8     Z     F8
+#-#-  z      Z     8     F8
 ----
 
-##--  b      9     B     F9
+##--  b      B     9     F9
 ----
 
-----  h      0     H     F10
+----  h      H     0     F10
 --##
 
-----  d      @     D     F11
+----  d      D     @     F11
 #--#
 
-#--#  g      #     G     F12
+#--#  g      G     #     F12
 ----
 
-#---  x      ^     X     Cut
+#---  x      X     ^     Cut
 --#-
 
----#  k      +     K     Copy
+---#  k      K     +     Copy
 -#--
 
--#--  v      *     V     Paste
+-#--  v      V     *     Paste
 ---#
 
---#-  j      =     J     Undo
+--#-  j      J     =     Undo
 #---
 
 #---  m      M     $
@@ -118,34 +118,34 @@ Input Output Inner Outer Both
 --#-  ,      .     ~
 ---#
 
-#---  ;            :
+#---  ;      :
 -#--
 
---#-  ;            :
+--#-  ;      :
 -#-#
 
--#--  '      `     "
+-#--  '      "     `
 #---
 
---##  '      `     "
+--##  '      "     `
 -#--
 
--###  Tab    Ins   Del   BT Clear
+-###  Tab    Del   Ins   BT Clear
 ----
 
-----  Enter  AltGr Esc   Bootloader
+----  Enter  Esc   AltGr Bootloader
 -###
 
-#---  Gui    PgUp  Right BT Profile 3
+#---  Gui    Right PgUp  BT Profile 3
 #---
 
--#--  Alt    Home  Up    BT Profile 2
+-#--  Alt    Up    Home  BT Profile 2
 -#--
 
---#-  Ctrl   End   Down  BT Profile 1
+--#-  Ctrl   Down  End   BT Profile 1
 --#-
 
----#  Shift  PgDn  Left  BT Profile 0
+---#  Shift  Left  PgDn  BT Profile 0
 ---#
 ```
 
